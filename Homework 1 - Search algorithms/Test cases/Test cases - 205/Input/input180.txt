@@ -1,0 +1,7 @@
+UCS
+A
+A
+3
+A B 1
+A C 5
+C D 2

@@ -1,0 +1,12 @@
+DFS
+S
+Z
+8
+S A 1
+S B 1
+A C 1
+B C 1
+C E 1
+C D 1
+D Z 1
+E Z 1

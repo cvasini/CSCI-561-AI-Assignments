@@ -1,0 +1,8 @@
+UCS
+A
+F
+4
+A C 3
+A D 1
+C F 3
+D F 1

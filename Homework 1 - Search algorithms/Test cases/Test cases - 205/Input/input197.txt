@@ -1,0 +1,10 @@
+UCS
+A
+G
+6
+A B 1
+A D 2
+B C 1
+C F 1
+D F 1
+F G 1
