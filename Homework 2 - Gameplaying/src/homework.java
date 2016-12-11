@@ -7,6 +7,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map.Entry;
 public class homework {
+	private static long startTime = System.currentTimeMillis();
 	static int sizeOfBoard;
 	static int depth;
 	static String algo;
@@ -66,6 +67,7 @@ public class homework {
 		else{
 			actualMove = lookUpAlphabet.get(Integer.parseInt(listMove[2])) + Integer.toString(Integer.parseInt(listMove[1]) + 1) + " Raid";
 		}
+		System.out.println(answerMove.get("bestValue"));
 		//create output file
 		PrintWriter writer = new PrintWriter("output.txt", "UTF-8");
 		writer.print(actualMove);
@@ -78,6 +80,8 @@ public class homework {
 
 		}
 		writer.close();
+		long endTime = System.currentTimeMillis();
+		System.out.println("It took " + (endTime - startTime) + " milliseconds");
 	}
 	//calculate game score
 	public Double calcGameScore(String[][] currentBoardState) {
